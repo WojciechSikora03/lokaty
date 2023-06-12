@@ -1,0 +1,21 @@
+input[type="number"],
+input[type="text"],
+input[type="submit"],
+label {
+    display: block;
+    margin: 10px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="submit"] {
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+}
